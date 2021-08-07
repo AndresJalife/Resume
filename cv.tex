@@ -1,0 +1,75 @@
+\documentclass{andres_cv}
+
+\setname{Andres }{Jalife}
+\setaddress{Bs.As / Argentina}
+\setmobile{1136832584}
+\setmail{andyjalife@gmail.com}
+\setposition{Work Student}
+
+
+\setlinkedinaccount{https://www.linkedin.com/in/andres-j-91169811a/} 
+\setgithubaccount{https://github.com/AndresJalife} 
+\setthemecolor{red} 
+
+\begin{document}
+\headerview
+\vspace{1ex}
+
+%Sections
+
+% Summary
+\addblocktext{Summary}{
+Computer science student in Universidad de Buenos Aires, Argentina and Full Stack developer at Odea SRL. Im 22 years old and passionate about what I do. I always willing to learn new technologies and improve the ones I already know. I can communicate fluently in Spanish and English. 
+}
+
+%Education
+\section{Education} 
+    \datedexperience{Buenos Aires University}{2018-2023 [expected]} 
+    \explanation{B.D in Computer Engineering} 
+     \explanationdetail{\coloredbullet\ % 
+     Currently pursuing my third year with two more to go
+     }
+
+% Experience
+\section{Experience}
+    \datedexperience{ODEA SRL}{NOV 2020-NOW / BSAS} 
+    \explanation{Full Stack Developer} 
+    \explanationdetail{\coloredbullet\ Front-End developtment on HTML, CSS, JS.}
+    \explanationdetail{\coloredbullet\ Back-End development on Flink and Spring Boot [JAVA]}
+    \explanationdetail{\coloredbullet\ Mobile Development in React Native}
+    
+\section{Projects}
+    \datedexperience{ChowProject}{JAVA - LIBGDX} 
+    \explanationdetail{1v1 fight game. Developed with ChowJuanCo (Animation Studio) as the graphics directors.} 
+    \explanationdetail{Currently stopped due to lack of time} 
+
+% Skills
+\section{Skills}
+    
+    \newcommand{\skillone}{\createskill{Programming Languages}{Java \cpshalf Javascript \cpshalf HTML \cpshalf CSS \cpshalf Python \cpshalf SmallTalk \cpshalf Java \cpshalf Rust \cpshalf SQL}}
+    
+    \newcommand{\skilltwo}{\createskill{Software Development}{Programming Paradigms \cpshalf GIT \cpshalf CLI \cpshalf Agile Methodology \cpshalf MVC}}
+    
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{React \cpshalf React Native \cpshalf Flink \cpshalf Pandas  \cpshalf Spring Boot \cpshalf WebPack \cpshalf Jupyter}}
+    
+    \newcommand{\skillfour}{\createskill{Databases}{PostgreSQL \cpshalf Redis}}
+    
+    \newcommand{\skillfive}{\createskill{Languages}{\textbf{\emph{Native:}} \ \  Spanish \ \ \textbf{\emph{Fluent:}} \ \ English }}
+    
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+
+\section{Certificates}
+    \newcommand{\extraone}{
+    First Certificate In English (FCE Cambridge) [ID : 17BAR6025402]
+    }
+    
+    \newcommand{\extratwo}{
+    Finance for non financial professionals [Coursera | ID : PHPBPT3EC6L8]
+    }
+    
+    \newcommand{\listofextras}{\extraone, \extratwo}
+    
+    \createbullets{\listofextras}
+
+\createfootnote
+\end{document}
