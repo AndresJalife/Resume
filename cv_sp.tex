@@ -1,0 +1,81 @@
+\documentclass{andres_cv}
+
+\setname{Andres }{Jalife}
+\setaddress{Bs.As / Argentina}
+\setmobile{1136832584}
+\setmail{andyjalife@gmail.com}
+\setposition{Work Student}
+
+
+\setlinkedinaccount{https://www.linkedin.com/in/andres-j-91169811a/} 
+\setgithubaccount{https://github.com/AndresJalife} 
+\setthemecolor{red} 
+
+\begin{document}
+\headerview
+\vspace{1ex}
+
+%Sections
+
+% Summary
+\addblocktext{PERFIL}{
+Estudiante de la Licenciatura en Análisis de Sistemas en la Universidad de Buenos Aires, Argentina y desarrollador Full Stack en Odea SRL. Tengo 22 años y me apasiona lo que hago, siempre estoy dispuesto a aprender nuevas tecnologías y mejorar en las que ya conozco. Puedo hablar fluidamente en inglés y mi idioma nativo es el español.
+}
+
+%Education
+\section{EDUCACIÓN} 
+    \datedexperience{Buenos Aires University}{2018-2023 [esperado]} 
+    \explanation{Licenciatura en Análisis de Sistemas} 
+     \explanationdetail{\coloredbullet\ % 
+    Actualmente cursando el tercer año de la carrera y me quedan dos para terminar.
+    PADRÓN: 104342
+     }
+    \datedexperience{ORT}{2012-2017}
+    \explanation{Secundario}
+        \explanationdetail{\coloredbullet\ % 
+        Recibido con honores. Promedio: 8.3}
+
+% Experience
+\section{EXPERIENCIA}
+    \datedexperience{ODEA SRL}{NOV 2020-ACTUALIDAD / BSAS} 
+    \explanation{Desarrollados FullStack} 
+    \explanationdetail{\coloredbullet\ Desarrollo Front-End con HTML, CSS, JS.}
+    \explanationdetail{\coloredbullet\ Desarrollo Back-End con Flink y Spring Boot [JAVA]}
+    \explanationdetail{\coloredbullet\ Desarrollo mobile con React Native}
+    
+    \explanationdetail{Comencé como desarrollador Front-End y al tiempo, dado que conocía Java, me ofrecieron aprender, por mi cuenta, Flink, un framework de Apache muy interesante. Desde entonces estuve desarrollando un programa de análisis de datos en real-time con esta tencología. También me propusieron aprender Spring Boot para desarrollar websockets con Java, lo cual estoy haciendo actualmente.}
+    
+\section{PROYECTOS}
+    \datedexperience{ChowProject}{JAVA - LIBGDX} 
+    \explanationdetail{Juego de pelea 1v1 en desarrollo con compañeros.}
+
+% Skills
+\section{HABILIDADES}
+    
+    \newcommand{\skillone}{\createskill{Lenguajes}{Java \cpshalf Javascript \cpshalf HTML \cpshalf CSS \cpshalf Python \cpshalf SmallTalk \cpshalf Java \cpshalf Rust \cpshalf SQL}}
+    
+    \newcommand{\skilltwo}{\createskill{Desarrollo de Software}{Paradigmas de Programación \cpshalf GIT \cpshalf CLI \cpshalf Metodología Ágil \cpshalf MVC}}
+    
+    \newcommand{\skillthree}{\createskill{Frameworks \ \& \ Librerías}{React \cpshalf React Native \cpshalf Flink \cpshalf Pandas  \cpshalf Spring Boot \cpshalf WebPack \cpshalf Jupyter}}
+    
+    \newcommand{\skillfour}{\createskill{Base de Datos}{PostgreSQL \cpshalf Redis}}
+    
+    \newcommand{\skillfive}{\createskill{IDIOMAS}{\textbf{\emph{Nativo:}} \ \  Español \ \ \textbf{\emph{Fluído:}} \ \ Inglés }}
+    
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+
+\section{CERTIFICADOS}
+    \newcommand{\extraone}{
+    First Certificate In English (FCE Cambridge) [ID : 17BAR6025402]
+    }
+    
+    \newcommand{\extratwo}{
+    Finance for non financial professionals [Coursera | ID : PHPBPT3EC6L8]
+    }
+    
+    \newcommand{\listofextras}{\extraone, \extratwo}
+    
+    \createbullets{\listofextras}
+
+\createfootnote 
+\end{document}
