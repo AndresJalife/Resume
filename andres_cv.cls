@@ -41,11 +41,11 @@
 
 % can makebox also be used?
 \newcommand\headerview{
-\begin{minipage}{0.25\linewidth}
-    \profpic{0.12}{images/profilepicture2}
-\end{minipage}% 
+% \begin{minipage}{0.25\linewidth}
+%     % \profpic{0.12}{images/profilepicture2}
+% \end{minipage}% 
 \hfill
-\begin{minipage}{0.45\linewidth}
+\begin{minipage}{\linewidth}
     \center \name \\[0.05cm] 
     \contact % address \ mobile \\ mail
 \end{minipage}
